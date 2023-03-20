@@ -1,0 +1,53 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+div .nav-center {
+  font-size: 3rem;
+  display: flex;
+  height: 75px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+div .nav-links {
+  margin: auto;
+}
+.parent {
+  height: calc(100vh - 20vh);
+  text-align: center;
+  background-size: cover;
+  margin-top: -150px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.container {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 3rem;
+}
+.btn {
+  font-size: 2rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: cornflowerblue;
+}
+
+main .container .btn-back a {
+  text-decoration: none;
+  color: black;
+}

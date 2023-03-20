@@ -1,0 +1,21 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10%;
+}
+.btn{
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+#value{
+    font-size: 5rem;    
+}

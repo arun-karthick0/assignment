@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-head{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    position: relative;
+    top: 150px;
+}
+
+.form-center{
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    margin-top: 50px;
+}
+
+input{
+    font-size: 2rem;
+}
+.btn{
+    font-size: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: cornflowerblue;
+}
+.form{
+    font-size: 1.5rem;
+    margin-top: 25%;
+    text-align: justify;
+    width: 800px;
+    text-align: center;
+    margin-left: 25%;
+}
+
